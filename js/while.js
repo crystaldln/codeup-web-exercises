@@ -7,3 +7,5 @@ while (i < 65536) {
 }
 
 
+let allCones = Math.floor(Math.random() * 50) + 50;
+
