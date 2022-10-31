@@ -4,6 +4,8 @@ var random= Math.floor((Math.random()*50)+1);
 console.log("Random odd number to skip is: " + random);
 
 for (var i = 1; i < 50; i++) {
+    let userInput = prompt("Enter odd number.");
+    console.log('The user entered: ' + userInput);
     if (i % 2 === 0) {
         // Skip the even numbers.
         continue;
