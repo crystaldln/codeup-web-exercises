@@ -32,10 +32,18 @@
      * array.
      */
 
+    for (var i = 0; i < names.length; i++) {
+        console.log('The names at index ' + i + names[i]);
+    }
+
     /**
      * TODO:
      * Refactor your above code to use a `forEach` loop
      */
+    var names = ['Dior', 'Crystal', 'Yomara','Bethany'];
+    names.forEach(function(name) {
+        console.log('Here are the names:' + name + '.');
+    });
 
     /**
      * TODO:
@@ -50,5 +58,10 @@
      *  > second([1, 2, 3, 4, 5]) // returns 2
      *  > last([1, 2, 3, 4, 5]) // return 5
      */
+
+    function arrayFrom() {
+        return Array.from(arguments);
+    }
+    console.log(arrayFrom(1));
 
 })();
