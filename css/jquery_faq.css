@@ -1,0 +1,54 @@
+.invisible {
+    visibility: hidden;
+}
+
+.highlighter {
+    background: palevioletred;
+}
+
+.emboldened {
+    font-weight: bold;
+}
+
+.enbluened {
+    color: #373fff;
+}
+
+body {
+    font-size: 1.25em;
+}
+
+dt {
+    font-weight: bold;
+}
+
+dd {
+    margin-bottom: 1.2em;
+}
+
+.yellow-bg {
+    background: yellow;
+}
+
+.styler {
+    position: relative;
+    top: 0;
+    left: 0;
+    transition: 1s;
+    font-size: 1em;
+    border-radius: 5px;
+    background-color: #3B94D9;
+    border: #30447B solid 5px;
+    color: aliceblue;
+    padding: 10px;
+    box-shadow: 5px 5px 10px black;
+}
+
+.styler:hover {
+    background-color: brown;
+    color: blanchedalmond;
+    border-color: orangered;
+    box-shadow: 0 0 5px black;
+    top: 5px;
+    left: 5px;
+}
